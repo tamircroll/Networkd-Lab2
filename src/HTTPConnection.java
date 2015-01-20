@@ -112,7 +112,10 @@ public class HTTPConnection implements Runnable {
 		System.out.println(myCounter + " | ### Connection is closing ###");
 		closeConnection();
 	}
-
+	
+	/*
+	 * Closing the connection 
+	 */
 	private void closeConnection() {
 		try {
 			if(input != null)
